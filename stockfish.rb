@@ -4,7 +4,7 @@ class Stockfish < Formula
   homepage "http://stockfishchess.org/"
   url "http://stockfish.s3.amazonaws.com/stockfish-5-src.zip"
   sha1 "e78436d25ed57baf7d0c8b681a3f9288ebb67b45"
-  head "https://github.com/mcostalba/Stockfish.git"
+  head "https://github.com/official-stockfish/Stockfish.git"
 
   def install
     if Hardware::CPU.features.include? :popcnt
